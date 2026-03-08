@@ -1,18 +1,23 @@
 {
-  "name": "shadow killer",
+  "name": "shadow-killer",
   "version": "1.0.0",
-  "description": "WhatsApp Pair Code Generator",
+  "description": "shadow killer whatsapp pair code generator",
   "main": "index.js",
   "type": "module",
-  "engines": { "node": ">=20.0.0" },
-  "scripts": { "start": "node index.js" },
-  "author": "Craazy Killer",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "craazy-killer",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.21",
     "awesome-phonenumber": "7.2.0",
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
+    "phone": "3.1.55",
     "pino": "9.5.0",
     "qrcode": "^1.5.4",
     "qrcode-terminal": "^0.12.0"
